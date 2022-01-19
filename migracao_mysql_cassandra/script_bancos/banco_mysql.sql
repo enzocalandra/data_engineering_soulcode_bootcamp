@@ -1,0 +1,10 @@
+-- Cria o banco 'dados_migrar'
+CREATE DATABASE IF NOT EXISTS dados_migrar;
+USE dados_migrar;
+
+-- Cria a tabela 'SISTEMA'
+CREATE TABLE IF NOT EXISTS SISTEMA (
+	NOTA_FISCAL INT PRIMARY KEY,
+    VENDEDOR VARCHAR(40),
+    TOTAL DECIMAL(10,2)
+);
