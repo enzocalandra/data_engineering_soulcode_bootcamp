@@ -1,3 +1,9 @@
+__author__ = 'André Ventura'
+__version__ = '1.0.1'
+__maintainer__ = "André Ventura"
+__status__ = "Production"
+
+
 from pyspark.sql import DataFrame
 from functools import reduce
 
